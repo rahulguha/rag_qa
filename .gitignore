@@ -33,4 +33,4 @@ rag_qa/
 *.swo
 
 # Environment variables
-.envchroma/chroma.sqlite3
+chroma/chroma.sqlite3
