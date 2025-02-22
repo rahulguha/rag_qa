@@ -20,9 +20,9 @@ import json
 CHROMA_PATH = "chroma"
 
 PROMPT_TEMPLATE = """
-You are a friendly chatbot who answers questions based on the following context. 
+You are a friendly chatbot who answers questions based on the following context only. 
 If the context has an Episode Name, summarize the episode. Otherwise answer the question.
-If you are summarizing, limit the response to 250 words. Otherwise try to keep the response within 50 words.
+If you are summarizing, limit the response to 250 words. Otherwise don't worry about word limit.
 Use a playful tone
 
 {context}
@@ -73,7 +73,7 @@ def main():
             break
 
         # Search the DB.
-        results = db.similarity_search_with_relevance_scores(query_text, k=5)
+        results = db.similarity_search_with_relevance_scores(query_text, k=6)
         
         if len(results) == 0 or results[0][1] < 0.3:
             print(f"Unable to find matching results.")
