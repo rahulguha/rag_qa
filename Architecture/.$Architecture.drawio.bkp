@@ -1,0 +1,57 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.9 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="26.0.9">
+  <diagram name="Page-1" id="iSE-BYIHh8CY65DjldPa">
+    <mxGraphModel dx="1252" dy="1084" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VPsLKvTVY1jadgCigQuc-1" value="Github Action Workflow" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;fillColor=#f9f7ed;strokeColor=#36393d;verticalAlign=bottom;fontSize=16;fontStyle=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="-209" y="124" width="541" height="428" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-2" value="Podcast Feeds" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-272.8" y="-92" width="317" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.494;entryY=0.932;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="VPsLKvTVY1jadgCigQuc-17" target="VPsLKvTVY1jadgCigQuc-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-117.60057462752889" y="137" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-16" value="" style="group;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="212" y="-87" width="178" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-14" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="VPsLKvTVY1jadgCigQuc-16" vertex="1">
+          <mxGeometry width="178" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:690/1*PCGbnvnYY9SYIjyXvwOHkw.png;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="VPsLKvTVY1jadgCigQuc-16" vertex="1">
+          <mxGeometry x="25" y="30.159999999999997" width="121" height="67.69" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="VPsLKvTVY1jadgCigQuc-17" target="VPsLKvTVY1jadgCigQuc-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Transcriber&lt;br&gt;&lt;/b&gt;&lt;/span&gt;(transcribe audio files)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;curveFitting=1;jiggle=2;rounded=0;fillColor=#1ba1e2;fontColor=#000033;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="-174.3" y="136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-36" value="" style="group;rounded=0;glass=0;shadow=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="421" y="55" width="178" height="183" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;sketch=1;curveFitting=1;jiggle=2;" parent="VPsLKvTVY1jadgCigQuc-36" vertex="1">
+          <mxGeometry y="38" width="178" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-7" value="Amazon S3" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#3399FF;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;curveFitting=1;jiggle=2;rounded=0;" parent="VPsLKvTVY1jadgCigQuc-36" vertex="1">
+          <mxGeometry x="54" y="60" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-38" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Writes transcription&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0)); text-align: center; text-wrap: nowrap; background-color: transparent;&quot;&gt;to S3&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="83" y="132" width="201.4" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="VPsLKvTVY1jadgCigQuc-17" target="VPsLKvTVY1jadgCigQuc-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-46.99999999999996" y="166.25" as="sourcePoint" />
+            <mxPoint x="482.3" y="165.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VPsLKvTVY1jadgCigQuc-11" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.gauge;sketch=1;curveFitting=1;jiggle=2;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-206.70000000000002" y="150.25" width="32.4" height="31.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

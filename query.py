@@ -41,9 +41,6 @@ def main():
     # Create CLI.
     parser = argparse.ArgumentParser()
     parser.add_argument("query_text", type=str, help="The query text.")
-    # args = parser.parse_args()
-    # query_text = args.query_text
-    # existing_files = glob.glob(f"{get_local_rag_path()}/**/*.txt", recursive=True)  # Get all .txt files in subdirectories
     if embedding_model != "OPENAI":
         model = load_sentence_transformer()
         embeddings = HuggingFaceEmbeddings(model_name=embedding_model)
